@@ -1,7 +1,7 @@
 <?php
-
 return array(
-
-    'mmyql' => array()
-
+    'mmyql' => array(
+		'flickr_key' => '',
+		'yql_base_url' => 'http://query.yahooapis.com/v1/public/yql',
+	)
 );

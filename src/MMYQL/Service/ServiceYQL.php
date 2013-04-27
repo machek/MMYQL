@@ -54,7 +54,7 @@ class ServiceYQL {
             return $response->getBody();
         }
         else{
-            throw new \Exception('Error - Response code: '.$response->getStatusCode());
+            throw new \Exception('Error - Response code: '.$response->getStatusCode().' - query - '.$yql_query);
         }
     }
 
