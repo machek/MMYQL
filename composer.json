@@ -22,7 +22,7 @@
             "MMYQL": "src/"
         },
         "classmap": [
-            "./Module.php"
+            "./"
         ]
     }
 }
