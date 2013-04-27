@@ -1,5 +1,5 @@
 {
-    "name": "mmyql",
+    "name": "machek/mmyql",
     "description": "YQL client module",
     "minimum-stability": "dev",
     "type" : "module",
