@@ -1,0 +1,28 @@
+{
+    "name": "mmyql",
+    "description": "YQL client module",
+    "minimum-stability": "dev",
+    "type" : "module",
+    "homepage" : "https://github.com/machek/MMYQL",
+    "keywords" : ["yql", "zf2", "module"],
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "Zdenek Machek",
+            "email": "zdenek.machek@gmail.com",
+            "homepage": "http://machek.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "MMYQL": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
