@@ -13,12 +13,12 @@ This is simple module simplifying YQL  - Yahoo! Query Language (http://developer
  3. copy /vendor/machek/mmyql/configmmyql.local.php.dist to /config/autoload/mmyql.local.php
  4. add to /config/module.config.php
 ```php
- 										'service_manager' => array(
-                                             'factories' => array(
-                                                 .....
-                                                 'serviceYQL' => '\MMYQL\Service\ServiceYQLFactory',
-                                             ),
-                                         ),
+ 		'service_manager' => array(
+        	'factories' => array(
+            .....
+            'serviceYQL' => '\MMYQL\Service\ServiceYQLFactory',
+            ),
+        ),
 ```
 
  ##usage
