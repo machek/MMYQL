@@ -19,10 +19,7 @@
     },
     "autoload": {
         "psr-0": {
-            "MMYQL": "src/"
-        },
-        "classmap": [
-            "./"
-        ]
+            "MMYQL\\": "src/"
+        }
     }
 }
