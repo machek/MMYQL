@@ -20,4 +20,5 @@ This is simple module simplifying YQL  - Yahoo! Query Language (http://developer
 
         $response = $this->getServiceLocator()->get('serviceYQL')->executeQuery($select, $from, $where);
         $responseArray = json_decode($response);
+        $resultArray = array('coordinates' => array('latitude' => $result->latitude, 'longitude' => $result->longitude, 'radius' => $result->radius));
 ```
