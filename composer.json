@@ -1,7 +1,7 @@
 {
     "name": "machek/mmyql",
-    "type": "library",
-	"description": "Module for easy access to YQL (Yahoo! Query Language)",
+    "type": "module",
+	"description": "Zend Framework 2 module for easy access to YQL (Yahoo! Query Language)",
     "minimum-stability": "dev",
     "homepage" : "https://github.com/machek/MMYQL",
     "keywords" : ["yql", "zf2", "module"],
