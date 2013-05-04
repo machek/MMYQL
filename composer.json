@@ -1,8 +1,8 @@
 {
     "name": "machek/mmyql",
-    "description": "YQL client module",
+    "type": "library",
+	"description": "Module for easy access to YQL (Yahoo! Query Language)",
     "minimum-stability": "dev",
-    "type" : "module",
     "homepage" : "https://github.com/machek/MMYQL",
     "keywords" : ["yql", "zf2", "module"],
     "license" : "MIT",
