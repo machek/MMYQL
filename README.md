@@ -11,15 +11,6 @@ This is simple module simplifying YQL  - Yahoo! Query Language (http://developer
  1. Add `"machek/mmyql": "dev-master"` to your `composer.json` file and run `php composer.phar update`.
  2. Add `MMYQL` to your `config/application.config.php` file under the `modules` key.
  3. copy /vendor/machek/mmyql/configmmyql.local.php.dist to /config/autoload/mmyql.local.php
- 4. add to /config/module.config.php
-```php
- 		'service_manager' => array(
-        	'factories' => array(
-            .....
-            'serviceYQL' => '\MMYQL\Service\ServiceYQLFactory',
-            ),
-        ),
-```
 
  ##usage
 ```php

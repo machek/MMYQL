@@ -7,12 +7,17 @@
 
 namespace MMYQL;
 
+use MMYQL\Service\ServiceYQLFactory;
+use Zend\ModuleManager\Feature\ServiceProviderInterface;
 
-class Module {
+class Module implements ServiceProviderInterface{
 
     public function getServiceConfig()
     {
-
+        return array(
+            'factories' => array(
+                'serviceYQL' => new ServiceYQLFactory(),
+            )
+        );
     }
-
 }
