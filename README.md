@@ -18,7 +18,8 @@ Installation
  2. Add `MMYQL` to your `config/application.config.php` file under the `modules` key.
  3. copy /vendor/machek/mmyql/configmmyql.local.php.dist to /config/autoload/mmyql.local.php
 
- ##usage
+Usage
+------------
 ```php
 		$select = "latitude, longitude, radius";
         $from = "geo.placefinder";
@@ -28,3 +29,7 @@ Installation
         $responseArray = json_decode($response);
         $resultArray = array('coordinates' => array('latitude' => $result->latitude, 'longitude' => $result->longitude, 'radius' => $result->radius));
 ```
+
+
+or check this project where we used it:
+https://github.com/Gisleburt/yahoohack
